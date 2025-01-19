@@ -1,0 +1,28 @@
+# ----------- CONFIGURABLE START -----------
+title:            "lovesnowbest's blog"
+description:      "~"
+url:              https://lovesnowbest.site # Site url, without a slash at the end.
+signoff:          "lovesnowbest" # Your name
+facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
+share:            true # Turn on twitter and facebook share buttons
+
+links:
+  - name:         About
+    url:          https://lovesnowbest.site
+    external:     true
+  - name:         Blog
+    url:          /
+  - name:         Friends
+    url:          /friends
+    # external:     true
+  # - name:         Resume
+  #   url:          https://lovesnowbest.site/images/resume.pdf
+  #   external:     true
+
+# ------------ CONFIGURABLE END ------------
+
+permalink:        /posts/:title
+defaults:
+  - values:
+      layout: "default"
